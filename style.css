@@ -79,6 +79,26 @@ td {
     text-align: center
 }
 
+.terrain {
+    background-image: url("images/terrain-badminton.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 600px;
+    position: relative
+}
+
+.volant {
+    position:absolute;
+    display: none;
+    top: 10px;
+    left: 20px;
+}
+
+.visible {
+    display:block;
+}
+
 @media screen and (min-width: 780px) {
     
 }

@@ -3,3 +3,4 @@ $('.slider-container').slick({
   slidesToShow: 3,
   slidesToScroll: 3
 });
+
