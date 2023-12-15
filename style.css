@@ -1,0 +1,45 @@
+fieldset {
+	margin: 2em 0;
+	padding: 1em;
+	font-size: 1.6rem;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 0.5em;
+}
+
+/* Style de chaque libélé */
+label {
+	padding: 0.5em;
+}
+
+/* Style de chaque input */
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="email"],
+input[type*="date"],
+textarea {
+	display: inline-block;
+	padding: 0.5em 1em;
+	font-size: 1.6rem;
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 0.5em;
+}
+
+textarea {
+	display: block;
+	min-height: 10em;
+}
+
+/* Style de chaque bouton */
+.button {
+	display: inline-block;
+	padding: 1em 2em;
+	font-size: 1.6rem;
+	color: #fff;
+	background-color: #DD5735;
+	border: 2px solid #DD5735;
+	border-radius: 0.5em;
+	cursor: pointer;
+}
